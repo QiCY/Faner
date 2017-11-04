@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6AABC17728E4AE141A10AF388CE95962'
-               BlueprintName = 'TCRotatorImageView'
+               BlueprintIdentifier = '23A1FF2ECD1762B2E81E502A4CB2FD06'
+               BlueprintName = 'SPPageMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libTCRotatorImageView.a'>
+               BuildableName = 'libSPPageMenu.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

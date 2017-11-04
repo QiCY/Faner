@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  BrandViewController.h
 //  Faner
 //
 //  Created by apple on 2017/11/4.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface MainViewController : BaseViewController<UIScrollViewDelegate>
+@interface BrandViewController : BaseViewController
 
 @end

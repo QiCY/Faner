@@ -20,6 +20,10 @@
 		187F7E6B1FADE8D10028836A /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E6A1FADE8D10028836A /* WishListViewController.m */; };
 		187F7E6E1FADE8E20028836A /* CanBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E6D1FADE8E20028836A /* CanBuyViewController.m */; };
 		187F7E711FADE8EF0028836A /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E701FADE8EF0028836A /* MineViewController.m */; };
+		187F7E741FADEF670028836A /* RecommondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E731FADEF670028836A /* RecommondViewController.m */; };
+		187F7E771FADEF750028836A /* LookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E761FADEF750028836A /* LookViewController.m */; };
+		187F7E7A1FADEF860028836A /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E791FADEF860028836A /* BrandViewController.m */; };
+		187F7E7D1FADEF940028836A /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E7C1FADEF940028836A /* ThemeViewController.m */; };
 		F0371E5BAF136075E9A92200 /* libPods-Faner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,14 @@
 		187F7E6D1FADE8E20028836A /* CanBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanBuyViewController.m; sourceTree = "<group>"; };
 		187F7E6F1FADE8EF0028836A /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		187F7E701FADE8EF0028836A /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		187F7E721FADEF670028836A /* RecommondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommondViewController.h; sourceTree = "<group>"; };
+		187F7E731FADEF670028836A /* RecommondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommondViewController.m; sourceTree = "<group>"; };
+		187F7E751FADEF750028836A /* LookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookViewController.h; sourceTree = "<group>"; };
+		187F7E761FADEF750028836A /* LookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookViewController.m; sourceTree = "<group>"; };
+		187F7E781FADEF860028836A /* BrandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandViewController.h; sourceTree = "<group>"; };
+		187F7E791FADEF860028836A /* BrandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
+		187F7E7B1FADEF940028836A /* ThemeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
+		187F7E7C1FADEF940028836A /* ThemeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
 		44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.debug.xcconfig"; sourceTree = "<group>"; };
 		98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Faner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +145,14 @@
 			children = (
 				187F7E621FADE8A20028836A /* MainViewController.h */,
 				187F7E631FADE8A20028836A /* MainViewController.m */,
+				187F7E721FADEF670028836A /* RecommondViewController.h */,
+				187F7E731FADEF670028836A /* RecommondViewController.m */,
+				187F7E751FADEF750028836A /* LookViewController.h */,
+				187F7E761FADEF750028836A /* LookViewController.m */,
+				187F7E781FADEF860028836A /* BrandViewController.h */,
+				187F7E791FADEF860028836A /* BrandViewController.m */,
+				187F7E7B1FADEF940028836A /* ThemeViewController.h */,
+				187F7E7C1FADEF940028836A /* ThemeViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -318,14 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187F7E7D1FADEF940028836A /* ThemeViewController.m in Sources */,
 				187F7E5C1FADE7EC0028836A /* BaseResponse.m in Sources */,
+				187F7E7A1FADEF860028836A /* BrandViewController.m in Sources */,
 				187F7E6B1FADE8D10028836A /* WishListViewController.m in Sources */,
 				187F7E6E1FADE8E20028836A /* CanBuyViewController.m in Sources */,
+				187F7E771FADEF750028836A /* LookViewController.m in Sources */,
 				187F7E641FADE8A20028836A /* MainViewController.m in Sources */,
 				187F7E551FADE7CF0028836A /* BaseViewController.m in Sources */,
 				187F7E4A1FADDEC40028836A /* main.m in Sources */,
 				187F7E681FADE8C10028836A /* SelectClothesViewController.m in Sources */,
 				187F7E711FADE8EF0028836A /* MineViewController.m in Sources */,
+				187F7E741FADEF670028836A /* RecommondViewController.m in Sources */,
 				187F7E3C1FADDEC40028836A /* AppDelegate.m in Sources */,
 				187F7E5B1FADE7EC0028836A /* HTTPManage.m in Sources */,
 			);
