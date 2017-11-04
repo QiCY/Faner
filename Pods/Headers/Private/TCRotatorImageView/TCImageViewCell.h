@@ -1,0 +1,1 @@
+../../../TCRotatorImageView/TCRotatorImageView/TCImageViewCell.h

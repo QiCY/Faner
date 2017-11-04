@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  Faner
 //
 //  Created by apple on 2017/11/4.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : BaseViewController
 
 @end
-

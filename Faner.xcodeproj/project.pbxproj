@@ -8,24 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		187F7E3C1FADDEC40028836A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E3B1FADDEC40028836A /* AppDelegate.m */; };
-		187F7E3F1FADDEC40028836A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E3E1FADDEC40028836A /* ViewController.m */; };
 		187F7E421FADDEC40028836A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F7E401FADDEC40028836A /* Main.storyboard */; };
 		187F7E441FADDEC40028836A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187F7E431FADDEC40028836A /* Assets.xcassets */; };
 		187F7E471FADDEC40028836A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F7E451FADDEC40028836A /* LaunchScreen.storyboard */; };
 		187F7E4A1FADDEC40028836A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E491FADDEC40028836A /* main.m */; };
+		187F7E551FADE7CF0028836A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E541FADE7CF0028836A /* BaseViewController.m */; };
+		187F7E5B1FADE7EC0028836A /* HTTPManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E581FADE7EC0028836A /* HTTPManage.m */; };
+		187F7E5C1FADE7EC0028836A /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E591FADE7EC0028836A /* BaseResponse.m */; };
+		187F7E641FADE8A20028836A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E631FADE8A20028836A /* MainViewController.m */; };
+		187F7E681FADE8C10028836A /* SelectClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E671FADE8C10028836A /* SelectClothesViewController.m */; };
+		187F7E6B1FADE8D10028836A /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E6A1FADE8D10028836A /* WishListViewController.m */; };
+		187F7E6E1FADE8E20028836A /* CanBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E6D1FADE8E20028836A /* CanBuyViewController.m */; };
+		187F7E711FADE8EF0028836A /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E701FADE8EF0028836A /* MineViewController.m */; };
+		F0371E5BAF136075E9A92200 /* libPods-Faner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		187F7E371FADDEC40028836A /* Faner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187F7E3A1FADDEC40028836A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		187F7E3B1FADDEC40028836A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187F7E3D1FADDEC40028836A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		187F7E3E1FADDEC40028836A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		187F7E411FADDEC40028836A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187F7E431FADDEC40028836A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187F7E461FADDEC40028836A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187F7E481FADDEC40028836A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187F7E491FADDEC40028836A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187F7E501FADDF720028836A /* Faner-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Faner-prefix.pch"; sourceTree = "<group>"; };
+		187F7E521FADDFEA0028836A /* CommonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
+		187F7E531FADE7CF0028836A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		187F7E541FADE7CF0028836A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		187F7E571FADE7EB0028836A /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		187F7E581FADE7EC0028836A /* HTTPManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPManage.m; sourceTree = "<group>"; };
+		187F7E591FADE7EC0028836A /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		187F7E5A1FADE7EC0028836A /* HTTPManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPManage.h; sourceTree = "<group>"; };
+		187F7E621FADE8A20028836A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		187F7E631FADE8A20028836A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		187F7E661FADE8C10028836A /* SelectClothesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectClothesViewController.h; sourceTree = "<group>"; };
+		187F7E671FADE8C10028836A /* SelectClothesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectClothesViewController.m; sourceTree = "<group>"; };
+		187F7E691FADE8D10028836A /* WishListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishListViewController.h; sourceTree = "<group>"; };
+		187F7E6A1FADE8D10028836A /* WishListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishListViewController.m; sourceTree = "<group>"; };
+		187F7E6C1FADE8E20028836A /* CanBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanBuyViewController.h; sourceTree = "<group>"; };
+		187F7E6D1FADE8E20028836A /* CanBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanBuyViewController.m; sourceTree = "<group>"; };
+		187F7E6F1FADE8EF0028836A /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		187F7E701FADE8EF0028836A /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.debug.xcconfig"; sourceTree = "<group>"; };
+		98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Faner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0371E5BAF136075E9A92200 /* libPods-Faner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +72,8 @@
 			children = (
 				187F7E391FADDEC40028836A /* Faner */,
 				187F7E381FADDEC40028836A /* Products */,
+				E1921C56E9D05E134F4F5064 /* Pods */,
+				6BDBD531E7A4179CA8EC8867 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +88,106 @@
 		187F7E391FADDEC40028836A /* Faner */ = {
 			isa = PBXGroup;
 			children = (
+				187F7E611FADE87D0028836A /* Mine */,
+				187F7E601FADE8720028836A /* CanBuy */,
+				187F7E5F1FADE8610028836A /* WishList */,
+				187F7E5E1FADE84E0028836A /* Select */,
+				187F7E5D1FADE8470028836A /* Main */,
+				187F7E561FADE7E30028836A /* Manage */,
+				187F7E511FADDFD50028836A /* Common */,
 				187F7E3A1FADDEC40028836A /* AppDelegate.h */,
 				187F7E3B1FADDEC40028836A /* AppDelegate.m */,
-				187F7E3D1FADDEC40028836A /* ViewController.h */,
-				187F7E3E1FADDEC40028836A /* ViewController.m */,
 				187F7E401FADDEC40028836A /* Main.storyboard */,
 				187F7E431FADDEC40028836A /* Assets.xcassets */,
 				187F7E451FADDEC40028836A /* LaunchScreen.storyboard */,
 				187F7E481FADDEC40028836A /* Info.plist */,
 				187F7E491FADDEC40028836A /* main.m */,
+				187F7E501FADDF720028836A /* Faner-prefix.pch */,
 			);
 			path = Faner;
+			sourceTree = "<group>";
+		};
+		187F7E511FADDFD50028836A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E531FADE7CF0028836A /* BaseViewController.h */,
+				187F7E541FADE7CF0028836A /* BaseViewController.m */,
+				187F7E521FADDFEA0028836A /* CommonDef.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		187F7E561FADE7E30028836A /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E571FADE7EB0028836A /* BaseResponse.h */,
+				187F7E591FADE7EC0028836A /* BaseResponse.m */,
+				187F7E5A1FADE7EC0028836A /* HTTPManage.h */,
+				187F7E581FADE7EC0028836A /* HTTPManage.m */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		187F7E5D1FADE8470028836A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E621FADE8A20028836A /* MainViewController.h */,
+				187F7E631FADE8A20028836A /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		187F7E5E1FADE84E0028836A /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E661FADE8C10028836A /* SelectClothesViewController.h */,
+				187F7E671FADE8C10028836A /* SelectClothesViewController.m */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		187F7E5F1FADE8610028836A /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E691FADE8D10028836A /* WishListViewController.h */,
+				187F7E6A1FADE8D10028836A /* WishListViewController.m */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		187F7E601FADE8720028836A /* CanBuy */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E6C1FADE8E20028836A /* CanBuyViewController.h */,
+				187F7E6D1FADE8E20028836A /* CanBuyViewController.m */,
+			);
+			path = CanBuy;
+			sourceTree = "<group>";
+		};
+		187F7E611FADE87D0028836A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				187F7E6F1FADE8EF0028836A /* MineViewController.h */,
+				187F7E701FADE8EF0028836A /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		6BDBD531E7A4179CA8EC8867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1921C56E9D05E134F4F5064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */,
+				CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187F7E4D1FADDEC40028836A /* Build configuration list for PBXNativeTarget "Faner" */;
 			buildPhases = (
+				3BDCF1ABA2B974ECC02A3C84 /* [CP] Check Pods Manifest.lock */,
 				187F7E331FADDEC40028836A /* Sources */,
 				187F7E341FADDEC40028836A /* Frameworks */,
 				187F7E351FADDEC40028836A /* Resources */,
+				B9D389F16EF8DBAB33C65EF6 /* [CP] Embed Pods Frameworks */,
+				223D551F69721FD87624B069 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +259,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		223D551F69721FD87624B069 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Faner/Pods-Faner-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faner/Pods-Faner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDCF1ABA2B974ECC02A3C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Faner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D389F16EF8DBAB33C65EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faner/Pods-Faner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		187F7E331FADDEC40028836A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187F7E3F1FADDEC40028836A /* ViewController.m in Sources */,
+				187F7E5C1FADE7EC0028836A /* BaseResponse.m in Sources */,
+				187F7E6B1FADE8D10028836A /* WishListViewController.m in Sources */,
+				187F7E6E1FADE8E20028836A /* CanBuyViewController.m in Sources */,
+				187F7E641FADE8A20028836A /* MainViewController.m in Sources */,
+				187F7E551FADE7CF0028836A /* BaseViewController.m in Sources */,
 				187F7E4A1FADDEC40028836A /* main.m in Sources */,
+				187F7E681FADE8C10028836A /* SelectClothesViewController.m in Sources */,
+				187F7E711FADE8EF0028836A /* MineViewController.m in Sources */,
 				187F7E3C1FADDEC40028836A /* AppDelegate.m in Sources */,
+				187F7E5B1FADE7EC0028836A /* HTTPManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +459,12 @@
 		};
 		187F7E4E1FADDEC40028836A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faner/Faner-prefix.pch";
 				INFOPLIST_FILE = Faner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qicy.com.Faner;
@@ -289,9 +475,12 @@
 		};
 		187F7E4F1FADDEC40028836A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faner/Faner-prefix.pch";
 				INFOPLIST_FILE = Faner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qicy.com.Faner;
