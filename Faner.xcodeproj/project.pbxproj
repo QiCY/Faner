@@ -24,6 +24,15 @@
 		187F7E771FADEF750028836A /* LookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E761FADEF750028836A /* LookViewController.m */; };
 		187F7E7A1FADEF860028836A /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E791FADEF860028836A /* BrandViewController.m */; };
 		187F7E7D1FADEF940028836A /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E7C1FADEF940028836A /* ThemeViewController.m */; };
+		187F7E801FAEE7BF0028836A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7E7F1FAEE7BF0028836A /* Utils.m */; };
+		187F7EA11FAF04B20028836A /* img_home_advertising.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA01FAF04B20028836A /* img_home_advertising.png */; };
+		187F7EA41FAF2A980028836A /* ReFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7EA31FAF2A980028836A /* ReFirstView.m */; };
+		187F7EA91FAF30B60028836A /* img_home_advantage_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA51FAF30B60028836A /* img_home_advantage_02.png */; };
+		187F7EAA1FAF30B60028836A /* img_home_advantage_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA61FAF30B60028836A /* img_home_advantage_04.png */; };
+		187F7EAB1FAF30B60028836A /* img_home_advantage_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA71FAF30B60028836A /* img_home_advantage_01.png */; };
+		187F7EAC1FAF30B60028836A /* img_home_advantage_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA81FAF30B60028836A /* img_home_advantage_03.png */; };
+		187F7EAF1FAF336F0028836A /* ReSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7EAE1FAF336F0028836A /* ReSecondView.m */; };
+		187F7EB11FAF37E50028836A /* img_home_brands.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EB01FAF37E50028836A /* img_home_brands.png */; };
 		F0371E5BAF136075E9A92200 /* libPods-Faner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +71,18 @@
 		187F7E791FADEF860028836A /* BrandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
 		187F7E7B1FADEF940028836A /* ThemeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
 		187F7E7C1FADEF940028836A /* ThemeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
+		187F7E7E1FAEE7BF0028836A /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		187F7E7F1FAEE7BF0028836A /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		187F7EA01FAF04B20028836A /* img_home_advertising.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_advertising.png; sourceTree = "<group>"; };
+		187F7EA21FAF2A980028836A /* ReFirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReFirstView.h; sourceTree = "<group>"; };
+		187F7EA31FAF2A980028836A /* ReFirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReFirstView.m; sourceTree = "<group>"; };
+		187F7EA51FAF30B60028836A /* img_home_advantage_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_advantage_02.png; sourceTree = "<group>"; };
+		187F7EA61FAF30B60028836A /* img_home_advantage_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_advantage_04.png; sourceTree = "<group>"; };
+		187F7EA71FAF30B60028836A /* img_home_advantage_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_advantage_01.png; sourceTree = "<group>"; };
+		187F7EA81FAF30B60028836A /* img_home_advantage_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_advantage_03.png; sourceTree = "<group>"; };
+		187F7EAD1FAF336F0028836A /* ReSecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReSecondView.h; sourceTree = "<group>"; };
+		187F7EAE1FAF336F0028836A /* ReSecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReSecondView.m; sourceTree = "<group>"; };
+		187F7EB01FAF37E50028836A /* img_home_brands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_brands.png; sourceTree = "<group>"; };
 		44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.debug.xcconfig"; sourceTree = "<group>"; };
 		98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Faner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +146,8 @@
 				187F7E531FADE7CF0028836A /* BaseViewController.h */,
 				187F7E541FADE7CF0028836A /* BaseViewController.m */,
 				187F7E521FADDFEA0028836A /* CommonDef.h */,
+				187F7E7E1FAEE7BF0028836A /* Utils.h */,
+				187F7E7F1FAEE7BF0028836A /* Utils.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -143,6 +166,7 @@
 		187F7E5D1FADE8470028836A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				187F7E811FAEEC260028836A /* views */,
 				187F7E621FADE8A20028836A /* MainViewController.h */,
 				187F7E631FADE8A20028836A /* MainViewController.m */,
 				187F7E721FADEF670028836A /* RecommondViewController.h */,
@@ -191,6 +215,23 @@
 				187F7E701FADE8EF0028836A /* MineViewController.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		187F7E811FAEEC260028836A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				187F7EA01FAF04B20028836A /* img_home_advertising.png */,
+				187F7EA71FAF30B60028836A /* img_home_advantage_01.png */,
+				187F7EA51FAF30B60028836A /* img_home_advantage_02.png */,
+				187F7EA81FAF30B60028836A /* img_home_advantage_03.png */,
+				187F7EA61FAF30B60028836A /* img_home_advantage_04.png */,
+				187F7EB01FAF37E50028836A /* img_home_brands.png */,
+				187F7EA21FAF2A980028836A /* ReFirstView.h */,
+				187F7EA31FAF2A980028836A /* ReFirstView.m */,
+				187F7EAD1FAF336F0028836A /* ReSecondView.h */,
+				187F7EAE1FAF336F0028836A /* ReSecondView.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		6BDBD531E7A4179CA8EC8867 /* Frameworks */ = {
@@ -271,9 +312,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187F7EAA1FAF30B60028836A /* img_home_advantage_04.png in Resources */,
+				187F7EA91FAF30B60028836A /* img_home_advantage_02.png in Resources */,
 				187F7E471FADDEC40028836A /* LaunchScreen.storyboard in Resources */,
+				187F7EB11FAF37E50028836A /* img_home_brands.png in Resources */,
 				187F7E441FADDEC40028836A /* Assets.xcassets in Resources */,
 				187F7E421FADDEC40028836A /* Main.storyboard in Resources */,
+				187F7EAC1FAF30B60028836A /* img_home_advantage_03.png in Resources */,
+				187F7EAB1FAF30B60028836A /* img_home_advantage_01.png in Resources */,
+				187F7EA11FAF04B20028836A /* img_home_advertising.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +387,10 @@
 			files = (
 				187F7E7D1FADEF940028836A /* ThemeViewController.m in Sources */,
 				187F7E5C1FADE7EC0028836A /* BaseResponse.m in Sources */,
+				187F7EA41FAF2A980028836A /* ReFirstView.m in Sources */,
 				187F7E7A1FADEF860028836A /* BrandViewController.m in Sources */,
+				187F7E801FAEE7BF0028836A /* Utils.m in Sources */,
+				187F7EAF1FAF336F0028836A /* ReSecondView.m in Sources */,
 				187F7E6B1FADE8D10028836A /* WishListViewController.m in Sources */,
 				187F7E6E1FADE8E20028836A /* CanBuyViewController.m in Sources */,
 				187F7E771FADEF750028836A /* LookViewController.m in Sources */,

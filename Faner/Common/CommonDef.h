@@ -10,5 +10,7 @@
 #define CommonDef_h
 #define WIDTH   [UIScreen mainScreen].bounds.size.width
 #define HEIGHT  [UIScreen mainScreen].bounds.size.height
-
+#define NAVHEIGHT  64
+#define TABHEIGHT  49
+#import "Utils.h"
 #endif /* CommonDef_h */

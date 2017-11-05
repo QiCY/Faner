@@ -36,16 +36,25 @@
     hopeNav.tabBarItem.title = @"心愿单";
     
     UINavigationController *canBuyNav = [[UINavigationController alloc] initWithRootViewController:[CanBuyViewController new]];
-    canBuyNav.tabBarItem.title = @"可买";
+    canBuyNav.tabBarItem.title = @"衣袋";
     
     UINavigationController *mineNav = [[UINavigationController alloc] initWithRootViewController:[MineViewController new]];
     mineNav.tabBarItem.title = @"我的";
     
     UITabBarController *tab = [[UITabBarController alloc] init];
     tab.viewControllers = @[mainNav,choiceNav,hopeNav,canBuyNav,mineNav];
-    tab.tabBar.tintColor = [UIColor orangeColor];
+    
+    NSArray *selectImgs = @[@"ic_bottom_home_fill",@"ic_bottom_clothing_fill",@"ic_bottom_love_fill",@"ic_bottom_bag_fill",@"ic_bottom_mine_fill"];
+    NSArray *usselectImgs = @[@"ic_bottom_home_line",@"ic_bottom_clothing_line",@"ic_bottom_love_line",@"ic_bottom_bag_line",@"ic_bottom_mine_line"];
+    for (int i = 0; i<tab.viewControllers.count; i++) {
+        UINavigationController *nav = tab.viewControllers[i];
+        
+        [nav.tabBarItem setImage:[UIImage imageNamed:usselectImgs[i]]];
+        [nav.tabBarItem setSelectedImage:[UIImage imageNamed:selectImgs[i]]];
+    }
+    tab.tabBar.tintColor = [Utils getColorWithString:@"00c2bf"];
     //设置标签栏的颜色
-//        tab.tabBar.barTintColor = [UIColor blackColor];
+    
     return tab;
 }
 

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseViewController : UIViewController
-
+-(void)setNavLeftView:(UIView *)leftView;
+-(void)setNavTitleView:(UIView *)titleView;
+-(void)setNavRightView:(UIView *)rightView;
 @end

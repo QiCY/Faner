@@ -24,7 +24,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)setNavLeftView:(UIView *)leftView
+{
+    UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];
+    self.navigationItem.leftBarButtonItem = barItem;
+}
+-(void)setNavTitleView:(UIView *)titleView{
+    self.navigationItem.titleView =titleView;
+    
+}
 
+-(void)setNavRightView:(UIView *)rightView{
+    UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:rightView];
+    self.navigationItem.rightBarButtonItem = barItem;
+}
 /*
 #pragma mark - Navigation
 

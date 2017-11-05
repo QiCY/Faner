@@ -886,7 +886,7 @@
     [self moveItemScrollViewWithSelectedButton:self.selectedButton];
 }
 
-- (void)setItemTitleFont:(UIFont *)itemTitleFont {
+- (void)trackersetItemTitleFont:(UIFont *)itemTitleFont {
     _itemTitleFont = itemTitleFont;
     for (SPItem *button in self.buttons) {
         button.titleLabel.font = itemTitleFont;
