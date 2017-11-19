@@ -10,6 +10,7 @@
 #import <TCRotatorImageView.h>
 #import "ReFirstView.h"
 #import "ReSecondView.h"
+
 @interface RecommondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSMutableArray *dataList;
@@ -27,14 +28,13 @@
 -(void)createTableView
 {
     NSArray *imgList = @[@"img_home_brands",@"img_home_brands",@"img_home_brands",@"img_home_brands"];
-    NSDictionary *dic = @{@"theme":@"品牌馆",@"type":@"BRANDS",@"cate":@"全部品牌",@"imgs":imgList};
+    NSDictionary *dic = @{@"theme":@"明星大图集",@"type":@"STARS",@"cate":@"全部品牌",@"imgs":imgList};
     
     
     NSArray *imgList1 = @[@"img_home_brands",@"img_home_brands",@"img_home_brands",@"img_home_brands"];
-    NSDictionary *dic1 = @{@"theme":@"品牌馆",@"type":@"BRANDS",@"cate":@"全部品牌",@"imgs":imgList1};
+    NSDictionary *dic1 = @{@"theme":@"商家新品",@"type":@"BRANDS",@"cate":@"全部新品",@"imgs":imgList1};
     
-    NSArray *imgList2 = @[@"img_home_brands",@"img_home_brands",@"img_home_brands",@"img_home_brands"];
-    NSDictionary *dic2 = @{@"theme":@"品牌馆",@"type":@"BRANDS",@"cate":@"全部品牌",@"imgs":imgList2};
+    
     
 //    ReSecondView *firstView = [[ReSecondView alloc] initWithFrame:CGRectMake(0, 110, WIDTH, 410)];
 //    [self.view addSubview:firstView];
@@ -44,9 +44,9 @@
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT - NAVHEIGHT -44 -TABHEIGHT)];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-//    self.tableView.backgroundColor = [UIColor redColor];
-//    self.tableView.tableFooterView = [[UIView alloc] init];
-//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = [UIColor redColor];
+    self.tableView.tableFooterView = [[UIView alloc] init];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:self.tableView];
 }
 
@@ -57,12 +57,30 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *cellid = @"cellid";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellid];
+    ReTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellid];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellid];
+        cell = [[ReTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellid];
     }
+    CLog(@"the cell height %f",cell.frame.size.height);
+    if (indexPath.row == 0) {
+        [cell setData:nil type:CELL_TYPE_FIRST index:indexPath.row];
+    }else{
+        [cell setData:nil type:CELL_TYPE_SECOND index:indexPath.row];
+    }
+    
+    
+    
     cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
     return cell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        return 430;
+    }
+    else{
+        return 400;
+    }
 }
 /*
 #pragma mark - Navigation

@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-
+#import "ReTableViewCell.h"
 @interface RecommondViewController : BaseViewController
 
 @end

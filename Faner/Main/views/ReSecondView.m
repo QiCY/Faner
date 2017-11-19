@@ -17,6 +17,10 @@
     // Drawing code
 }
 */
+-(void)hiddenActionBtn:(BOOL)hidden{
+    self.actionBtn.hidden = hidden;
+    self.arrowImg.hidden = hidden;
+}
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
@@ -31,6 +35,7 @@
         [headView addSubview:self.themeLab];
         
         self.lineLab = [[UILabel alloc] init];
+        self.lineLab.backgroundColor = [Utils getColorWithString:@"818181"];
         [headView addSubview:self.lineLab];
         
         self.typeLab = [[UILabel alloc] init];
@@ -48,6 +53,7 @@
         
         self.scrollView = [[UIScrollView alloc] init];
         [self addSubview:self.scrollView];
+//        self.scrollView.backgroundColor = [UIColor blueColor];
     }
     return self;
 }
@@ -57,8 +63,8 @@
     CGSize themeSize = [Utils getLabelSizeWithFont:self.themeLab.font string:self.themeLab.text];
     self.themeLab.frame = CGRectMake(20, 30, themeSize.width, 30);
     
-    self.lineLab.frame = CGRectMake(CGRectGetMaxX(self.themeLab.frame)+8, 32, 0.2, self.themeLab.frame.size.height-4);
-    self.lineLab.backgroundColor = [UIColor grayColor];
+    self.lineLab.frame = CGRectMake(CGRectGetMaxX(self.themeLab.frame)+8, 34, 0.2, self.themeLab.frame.size.height-8);
+    
     
     self.typeLab.text = data[@"type"];
     CGSize typeSize = [Utils getLabelSizeWithFont:self.typeLab.font string:self.typeLab.text];
@@ -68,6 +74,9 @@
     self.arrowImg.image = [UIImage imageNamed:@"ic_home_arrow_more"];
     [self.actionBtn setTitle:data[@"cate"] forState:UIControlStateNormal];
     self.actionBtn.frame = CGRectMake(WIDTH - 15-6-10-80, 30, 80, 30);
+    for (UIView *view in self.scrollView.subviews) {
+        [view removeFromSuperview];
+    }
     NSArray* imgList = data[@"imgs"];
     for (int i = 0; i<imgList.count; i++) {
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(i*(size.width+10), 0, size.width, size.height)];
@@ -75,8 +84,9 @@
         [button setBackgroundImage:[UIImage imageNamed:imgList[i]] forState:UIControlStateNormal];
     }
     
-    self.scrollView.contentSize = CGSizeMake(20+imgList.count*(size.width+10), size.width+10);
+    self.scrollView.contentSize = CGSizeMake(20+imgList.count*(size.width+10), size.height+10);
 //    self.scrollView.pagingEnabled = YES;
-    self.scrollView.frame = CGRectMake(20, 100, WIDTH-20, size.width+10);
+    self.scrollView.frame = CGRectMake(20, 100, WIDTH-20, size.height+10);
+    
 }
 @end

@@ -11,4 +11,8 @@
 @interface ReFirstView : UIView<TCRotatorImageViewDelegate>
 @property(nonatomic,strong)TCRotatorImageView *scrollView;
 @property(nonatomic,strong)UIView *cateView;
+@property(nonatomic,strong)NSArray *cateList;
+@property(nonatomic,strong)NSArray *bannerList;
+-(id)initWithFrame:(CGRect)frame;
+-(void)setBannerList:(NSArray *)bannerList cateList:(NSArray *)cateList;
 @end

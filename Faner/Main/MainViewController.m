@@ -34,16 +34,20 @@
     [self createMainView];
     
     
+    
 }
+
 -(void)setNavContent{
-    UIButton *messageBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 17)];
-    [messageBtn setImage:[UIImage imageNamed:@"ic_home_nav_message"] forState:UIControlStateNormal];
+    UIButton *messageBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 10, 8.5)];
+//    messageBtn.backgroundColor = [UIColor redColor];
+    [messageBtn setBackgroundImage:[UIImage imageNamed:@"ic_home_nav_message"] forState:UIControlStateNormal];
     messageBtn.tag = 1;
     [messageBtn addTarget:self action:@selector(messageBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self setNavLeftView:messageBtn];
     
-    UIButton *searchBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 17)];
-    [searchBtn setImage:[UIImage imageNamed:@"ic_home_nav_finder"] forState:UIControlStateNormal];
+    UIButton *searchBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 10, 8.5)];
+//        searchBtn.backgroundColor = [UIColor redColor];
+    [searchBtn setBackgroundImage:[UIImage imageNamed:@"ic_home_nav_finder"] forState:UIControlStateNormal];
     searchBtn.tag = 2;
     [searchBtn addTarget:self action:@selector(messageBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self setNavRightView:searchBtn];
@@ -55,7 +59,7 @@
 }
 //导航条按钮事件
 -(void)messageBtnClick:(UIButton *)sender{
-    CLog(@"%d",sender.tag);
+    CLog(@"%ld",sender.tag);
     if (sender.tag == 1) {
 //        消息按钮
         
@@ -87,12 +91,7 @@
     for (int i = 0; i < self.dataArr.count; i++) {
         if (subVCList.count > i) {
             BaseViewController *baseVC = subVCList[i];
-//            NSString *text = [self.pageMenu titleForItemAtIndex:i];
-//            if (text) {
-//                baseVc.text = text;
-//            } else {
-//                baseVc.text = @"图片";
-//            }
+
             [self addChildViewController:baseVC];
             // 控制器本来自带childViewControllers,但是遗憾的是该数组的元素顺序永远无法改变，只要是addChildViewController,都是添加到最后一个，而控制器不像数组那样，可以插入或删除任意位置，所以这里自己定义可变数组，以便插入(删除)(如果没有插入(删除)功能，直接用自带的childViewControllers即可)
             [self.myChildViewControllers addObject:baseVC];
@@ -117,12 +116,6 @@
         scrollView.contentSize = CGSizeMake(self.dataArr.count*WIDTH, 0);
     }
     
-//    for (int i = 0; i<subVCList.count; i++) {
-//        BaseViewController *baseVC = subVCList[i];
-//        baseVC.view.frame = CGRectMake(WIDTH*i, 0, WIDTH, subVCH);
-//        [scrollView addSubview:baseVC.view];
-//    }
-//    scrollView.contentSize = CGSizeMake(self.dataArr.count*WIDTH, subVCH);
     
     
    

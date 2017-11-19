@@ -33,6 +33,7 @@
 		187F7EAC1FAF30B60028836A /* img_home_advantage_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EA81FAF30B60028836A /* img_home_advantage_03.png */; };
 		187F7EAF1FAF336F0028836A /* ReSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7EAE1FAF336F0028836A /* ReSecondView.m */; };
 		187F7EB11FAF37E50028836A /* img_home_brands.png in Resources */ = {isa = PBXBuildFile; fileRef = 187F7EB01FAF37E50028836A /* img_home_brands.png */; };
+		187F7EB41FB07F5A0028836A /* ReTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F7EB31FB07F5A0028836A /* ReTableViewCell.m */; };
 		F0371E5BAF136075E9A92200 /* libPods-Faner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,8 @@
 		187F7EAD1FAF336F0028836A /* ReSecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReSecondView.h; sourceTree = "<group>"; };
 		187F7EAE1FAF336F0028836A /* ReSecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReSecondView.m; sourceTree = "<group>"; };
 		187F7EB01FAF37E50028836A /* img_home_brands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_home_brands.png; sourceTree = "<group>"; };
+		187F7EB21FB07F5A0028836A /* ReTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReTableViewCell.h; sourceTree = "<group>"; };
+		187F7EB31FB07F5A0028836A /* ReTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReTableViewCell.m; sourceTree = "<group>"; };
 		44769CB8ABDFD387F4409EE1 /* Pods-Faner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.debug.xcconfig"; sourceTree = "<group>"; };
 		98C5B9E809C33E2771EEDE52 /* libPods-Faner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Faner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9FB6F629E881C6EFE10638 /* Pods-Faner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faner/Pods-Faner.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				187F7EA31FAF2A980028836A /* ReFirstView.m */,
 				187F7EAD1FAF336F0028836A /* ReSecondView.h */,
 				187F7EAE1FAF336F0028836A /* ReSecondView.m */,
+				187F7EB21FB07F5A0028836A /* ReTableViewCell.h */,
+				187F7EB31FB07F5A0028836A /* ReTableViewCell.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187F7EB41FB07F5A0028836A /* ReTableViewCell.m in Sources */,
 				187F7E7D1FADEF940028836A /* ThemeViewController.m in Sources */,
 				187F7E5C1FADE7EC0028836A /* BaseResponse.m in Sources */,
 				187F7EA41FAF2A980028836A /* ReFirstView.m in Sources */,

@@ -16,4 +16,5 @@
 @property(nonatomic,strong)UIImageView *arrowImg;
 @property(nonatomic,strong)UIScrollView *scrollView;
 -(void)refreshWithData:(id)data itemSize:(CGSize)size;
+-(void)hiddenActionBtn:(BOOL)hidden;
 @end
